@@ -61,7 +61,7 @@
 				
 			};
 
-			// Replace Bangla words with English keywords
+			// Replace Bangla words with English keywords using javascript
 			for (const [banglaWord, englishWord] of Object.entries(mapping)) {
 				banglaCode = banglaCode.replace(new RegExp(banglaWord, 'g'), englishWord);
 			}
