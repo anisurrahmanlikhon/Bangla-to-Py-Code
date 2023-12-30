@@ -83,7 +83,7 @@
         window.getSelection().addRange(range);
         document.execCommand('copy');
         window.getSelection().removeAllRanges();
-        alert('Copy and Paste code in Compiler');
+        alert('Copy the code');
 
         // Paste the copied code into the compiler textarea
         
