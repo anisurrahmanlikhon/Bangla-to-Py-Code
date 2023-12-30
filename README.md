@@ -1,7 +1,7 @@
 # bangla to Python
 
 # গিটহাব পেইজ : 
-[<b>```বাংলা থেকে সি কনভার্টার```</b>](https://anisurrahmanlikhon.github.io/bangla-py/)
+[<b>```বাংলা থেকে পাইথন```</b>](https://anisurrahmanlikhon.github.io/bangla-py/)
 # ডকুমেন্টেশন
 
 ### সিনট্যাক্স 
