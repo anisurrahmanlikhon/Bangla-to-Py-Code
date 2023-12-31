@@ -9,71 +9,108 @@
 		function translateToC(banglaCode) {
 			// Replace Bangla keywords with corresponding C keywords
 			const mapping = {
-				mapping = {
-					'অন্তর্ভুক্ত': 'import',
-					'নাও': 'input',
-                       			'দেখাও': 'print',
-                       			'ফেরত': 'return',
-                       			'টাইপ':'type',
-                       			'০': '0',
-					'১': '1',
-					'২': '2',
-					'৩': '3',
-					'৪': '4',
-					'৫': '5',
-					'৬': '6',
-					'৭': '7',
-					'৮': '8',
-					'৯': '9',
+				'# অন্তর্ভুক্ত': '#include',
+				'# ডিফাইন': '#define',
+				'< স্ট্যান্ডার্ড_ইন_আউট.হেডার >': '<stdio.h>',
+				'< স্ট্যান্ডার্ড_লাইব্রেরি.হেডার >': '<stdlib.h>',
+				'< গণিত.হেডার >': '<math.h>',
+				'< স্ট্রিং.হেডার >': '<string.h>',
+				'< স্ট্যান্ডার্ড_বুলিয়ান.হেডার >': '<stdbool.h>',
 
+				'মৌলিক': 'main',
+				'নাও': 'scanf',
+				'দেখাও': 'printf',
+				'ফেরত': 'return',
+
+				'০': '0',
+				'১': '1',
+				'২': '2',
+				'৩': '3',
+				'৪': '4',
+				'৫': '5',
+				'৬': '6',
+				'৭': '7',
+				'৮': '8',
+				'৯': '9',
+
+				'পূর্ণ': 'int',
+				'দশম': 'float',
+				'বর্ণ': 'char',
+				'ডাবল': 'double',
+
+
+				'%প': '%d',
+				'%দ': '%f',
+				'%ব': '%c',
+				'%লদ': '%lf',
+				'%লপ': '%ld',
+				'%স': '%s',
+				'%পি': '%p',
+				'%ইউ': '%u',
+				'%এক্স': '%x',
+				'%যাই': '%zu',
+				'ঘদ': 'f',
 				
-                        		'যদি': 'if',
-					'নাহলে': 'else',
-					'নাহয়': 'el',
 
-					'লুপ': 'for',
-					'রেঞ্জের মধ্যে': 'in range',
-					'যতক্ষণ': 'while',
-				
+            
+                                'যদি': 'if',
+				'নাহলে': 'else',
+				'ফর': 'for',
+				'যতক্ষণ': 'while',
+				'করো': 'do',
 
-					'থামো': 'break',
-					'বাদ': 'continue',
-				
+				'থামো': 'break',
+				'বাদ': 'continue',
+				'সুইচ': 'switch',
+				'কেস': 'case',
+				'ডিফল্ট': 'default',
+				'লাফ_দাও': 'goto',
+				'লেবেল': 'lebel',
 
-					'সত্য': 'True',
-					'মিথ্যা': 'False',
+				'অটো': 'auto',
+				'স্ট্রাক্ট': 'struct',
+				'লম্বা': 'long',
+				'ইনুম': 'enum',
+				'রেজিস্টার': 'register',
+				'টাইপ_ডেফ': 'typedef',
+				'এক্সটার্ণ': 'extern',
+				'ইউনিয়ন': 'union',
+				'নির্দিষ্ট': 'const',
+				'স্ট্যাটিক': 'static',
+				'সাইজ_অফ': 'sizeof',
+				'খাটো': 'short',
+				'শূণ্য': 'void',
+				'ভুলাটাইল': 'volatile',
+				'চিহ্ন': 'signed',
+				'প্রতীকহীন': 'unsigned',
 
-					'হয়': 'is',
-				
-					'এবং': 'and',
-					'অথবা': 'or',
-					'সমান-নয়' : 'not',
+				'সত্য': 'true',
+				'মিথ্যা': 'false',
+				'বুল': '_Bool',
 
-                                	'ক্লাস':'class',
-					'ইনিশিয়াল': '__init__',
-					'একই':'self',
-					'ডিফাইন': 'def',
-					'পাস_করো':'pass',
+				'অক্ষর_নিব': 'getchar',
+				'অক্ষর_দেখাব': 'putchar',
+				'বাক্য_লই': 'gets',
+				'বাক্য_দেখাই': 'puts',
+				'বালেন': 'strlen',
+				'বাকপি': 'strcpy',
+				'বাকেট':'strcat',
+				'বাকম': 'strcmp',
 
-					'গণিত':'math',
-					'গসাগু': 'gcd',
-					'ফ্যাক্ট': 'factorial',
-					'সর্বোচ্চ':'ceil',
-					'সর্বনিম্ন':'floor',
-					'ছাঁটাই':'trunc',
-					'বর্গমূল': 'sqrt',
-					'ঘনমূল': 'cbrt',
-					'ঘাত': 'pow',
-					'পরম':'fabs',
-					'সূচক': 'exp',
-					'লগ': 'log',
-					'ভাগশেষ':'fmod',
-					'ভুজ': 'sin',
-					'কোটি':'cos',
-					'স্পর্শক': 'tan',
-					'পাই':'pi',
-    				    
-
+				'সর্বোচ্চ':'ceil',
+				'সর্বনিম্ন':'floor',
+				'রাউন্ড':'round',
+				'বর্গমূল': 'sqrt',
+				'ঘনমূল': 'cbrt',
+				'ঘাত': 'pow',
+				'পরম':'fabs',
+				'সূচক': 'exp',
+				'লগ': 'log',
+				'ছাঁটাই':'trunc',
+				'ভাগশেষ':'fmod',
+				'ভুজ': 'sin',
+				'কোটি':'cos',
+				'স্পর্শক': 'tan',	
 			};
 
 			// Replace Bangla words with English keywords
@@ -98,10 +135,10 @@
         window.getSelection().addRange(range);
         document.execCommand('copy');
         window.getSelection().removeAllRanges();
-        alert('Copy the code ');
+        alert('Copy and Paste code in Compiler');
 
         // Paste the copied code into the compiler textarea
-     
+      
     }
 
 
