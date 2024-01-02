@@ -65,12 +65,19 @@
 		}
 
 		.code-area {
-			background: black;
-			border: auto;
-			color: lime;
-			padding: 5px;
-			border-radius: 5px;
 			width: 80%;
+      			height: 300px;
+      			padding: 8px;
+      			box-sizing: border-box;
+      			border: 1px solid #ccc;
+     			border-radius: 4px;
+			margin-bottom: 16px;
+      			background-color: black;
+      			color: lime;
+      			::placeholder {
+       			 /* Set placeholder color to white */
+        		color: white;
+      			}
 		}
 
 		.copy-text {
@@ -103,7 +110,7 @@
       border-radius: 4px;
       margin-bottom: 16px;
       background-color: black;
-      color: white;
+      color: lime;
       ::placeholder {
         /* Set placeholder color to white */
         color: white;
