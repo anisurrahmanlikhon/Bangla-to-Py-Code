@@ -1,8 +1,8 @@
-# bangla to Python
+#bangla to Python
 
-# গিটহাব পেইজ : 
+## গিটহাব পেইজ : 
 [<b>```বাংলা থেকে পাইথন```</b>](https://anisurrahmanlikhon.github.io/bangla-py/)
-# ডকুমেন্টেশন
+## ডকুমেন্টেশন
 
 ### সিনট্যাক্স 
 
