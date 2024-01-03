@@ -69,7 +69,7 @@
       			border: 1px solid #ccc;
      			border-radius: 4px;
 			margin-bottom: 16px;
-      			background-color: black;
+      			background-color: #444;
       			color: lime;
       			::placeholder {
        			 /* Set placeholder color to white */
@@ -106,7 +106,7 @@
       border: 1px solid #ccc;
       border-radius: 4px;
       margin-bottom: 16px;
-      background-color: black;
+      background-color: #444;
       color: lime;
       ::placeholder {
         /* Set placeholder color to white */
