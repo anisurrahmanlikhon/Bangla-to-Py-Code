@@ -1,6 +1,4 @@
-        	:root {
-              		background-color: #333;
-			}
+
 
 		body {
 			font-family: Open Sans;
@@ -9,7 +7,7 @@
 			flex-direction: column;
 			justify-centent: center;
 			align-items: center;
-			
+			background-color: #333;
 
 		}
 
