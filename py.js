@@ -13,7 +13,7 @@ String.prototype.characterize = function(callback) {
 var $textarea;
 var $highlight;
 
-var $keywords = ['অন্তর্ভুক্ত', 'নাও', 'সত্য', 'এবং', 'থামো', 'ক্লাস', 'বাদ', 'ডিফাইন', 'নাহয়যদি', 'নাহলে',  'লুপ',  'যদি', 'রেঞ্জের_মধ্যে', 'সমান-নয়', 'অথবা', 'পাস_করো', 'ফেরত', 'চেষ্টা', 'যতক্ষণ','হয়', 'দেখাও','টাইপ','নাহয়','একই','গণিত','গসাগু','ফ্যাক্টো','সর্বোচ্চ','সর্বনিম্ন','ছাঁটাই','বর্গমূল','ঘনমূল','ঘাত','পরম','সূচক','লগ','ভাগশেষ','ভুজ','কোটি','স্পর্শক','পাই','রান্ডাম','পছন্দ','রেন্ডরেঞ্জ','সীড','শাফল','ইউনিফর্ম','রেন্ডিন্ট', '.'];
+var $keywords = ['অন্তর্ভুক্ত', 'নাও', 'সত্য', 'এবং', 'থামো', 'ক্লাস', 'বাদ', 'ডিফাইন', 'নাহয়যদি', 'নাহলে',  'লুপ',  'যদি', 'রেঞ্জের', 'মধ্যে', 'সমান-নয়', 'অথবা', 'পাস_করো', 'ফেরত', 'চেষ্টা', 'যতক্ষণ','হয়', 'দেখাও','টাইপ','একই','গণিত','গসাগু','ফ্যাক্টো','সর্বোচ্চ','সর্বনিম্ন','ছাঁটাই','বর্গমূল','ঘনমূল','ঘাত','পরম','সূচক','লগ','ভাগশেষ','ভুজ','কোটি','স্পর্শক','পাই','রান্ডাম','পছন্দ','রেন্ডরেঞ্জ','সীড','শাফল','ইউনিফর্ম','রেন্ডিন্ট', '.'];
 
 var $functions = ['abs', 'dict', 'help', 'min', 'setattr', 'all', 'dir', 'hex', 'next', 'slice', 'any', 'divmod', 'id', 'object', 'sorted', 'ascii', 'enumerate', 'input', 'oct', 'staticmethod', 'bin', 'eval', 'int', 'open', 'str', 'bool', 'exec', 'isinstance', 'ord', 'sum', 'bytearray', 'filter', 'issubclass', 'pow', 'super', 'bytes', 'float', 'iter', 'print', 'tuple', 'callable', 'format', 'len', 'property', 'type', 'chr', 'frozenset', 'list', 'range', 'vars', 'classmethod', 'getattr', 'locals', 'repr', 'zip', 'compile', 'globals', 'map', 'reversed', '_import_', 'complex', 'hasattr', 'max', 'round', 'delattr', 'hash', 'memoryview', 'set'];
 
