@@ -11,6 +11,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 	<script src="parser.js"></script>
+	<script src="py.js"></script>
 	<title>Bangla to Py Code</title>
 
 </head>
@@ -19,7 +20,12 @@
 	<center><h1 style="color: tomato;">Bangla to Python Code</h1></center>
 
 	<label class="banglaCode">Enter Bangla Code:</label>
+	<div id="window-wrapper">
+	  <div id="content-box">
 	<textarea id="banglaCode" placeholder="Enter your Bangla code here..." class="code-area"></textarea>
+	<pre id="highlight-area"></pre>
+	  </div>
+	</div>
 	<button onclick="convertToC()" class="c-convert">Convert to Py-Code</button><br>
 	<center><div class="code-container">
 	<h2 style="color: tomato;">Converted Py-Code:</h2>
