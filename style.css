@@ -70,7 +70,7 @@
      			border-radius: 4px;
 			margin-bottom: 16px;
       			background-color: #444;
-      			color: lime;
+      			color: white;
       			::placeholder {
        			 /* Set placeholder color to white */
         		color: white;
@@ -107,7 +107,7 @@
       border-radius: 4px;
       margin-bottom: 16px;
       background-color: #444;
-      color: lime;
+      color: white;
       ::placeholder {
         /* Set placeholder color to white */
         color: white;
