@@ -80,7 +80,7 @@ while loop:
 ```
 for loop:
 ```Python
-লুপ ক রেঞ্জের মধ্যে(১, ১০):
+লুপ ক রেঞ্জের_মধ্যে(১, ১০):
     দেখাও(ক) 
 ```
 break, continue statement:
