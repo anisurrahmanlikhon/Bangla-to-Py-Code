@@ -22,7 +22,7 @@ window.addEventListener('load', function() {
   $highlight = document.getElementById('highlight-area');
 
   var code = `## এখানে বাংলা কোড লিখো
-ক্লাস প্রাণী:
+
 বার = "সোমবার"
 টাকা = ৫০০
 
