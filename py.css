@@ -89,7 +89,7 @@ div#content-box > pre#highlight-area {
 div#content-box > textarea {
   width:100%;
   border: none;
-  background-color: #444;
+  background-color: black;
   color: #444;
   caret-color: #ddd;
   border-radius: 20px;
