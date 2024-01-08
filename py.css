@@ -75,7 +75,7 @@ div#content-box {
 div#content-box > textarea,
 div#content-box > pre#highlight-area {
   height: 400pt;
-  width: 80%;
+  width: 100%;
   box-sizing: border-box;
   overflow: auto;
   padding: 10pt;
@@ -87,7 +87,7 @@ div#content-box > pre#highlight-area {
   border-radius: 20px;
 }
 div#content-box > textarea {
-  width:80%;
+  width:100%;
   border: none;
   background-color: #444;
   color: #444;
