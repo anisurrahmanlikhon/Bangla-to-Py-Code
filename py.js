@@ -21,7 +21,7 @@ window.addEventListener('load', function() {
   $textarea = document.getElementById('textarea-input');
   $highlight = document.getElementById('highlight-area');
 
-  var code = `## এখানে বাংলা কোড লিখো
+  var code = `## এখানে বাংলা পাাইথন কোড লিখো
 
 বার = "সোমবার"
 টাকা = ৫০০
